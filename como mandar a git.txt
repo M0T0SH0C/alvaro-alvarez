@@ -1,0 +1,9 @@
+para mandar el trabajo a gitub 
+
+git add . 
+
+git commit
+
+git push
+
+para tomar los archivos con git pull 
