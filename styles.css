@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;700;800&display=swap');
 
+/* las lineas que tienen color var - van con el root de colores para modificar colores primero sacar el fondo  */
+
 :root {
-  --primary-color: #3282B8;
-  --primary-color-dark: #0F4C75;
+  --primary-color: #280881;
+  --primary-color-dark: #f6f7fa;
   --accent-color: #FFF8F0;
+  --accent-color1: #4d0606;
+  --accent-color2: #5b0594;
 }
 
 html {
@@ -11,6 +15,11 @@ html {
 }
 
 body {
+
+  background-image:url(/web.jpg);
+  background-size: cover;
+background-repeat: no-repeat;
+
   margin: 0;
   padding: 0;
   font-family: 'Manrope', sans-serif;
@@ -46,7 +55,7 @@ body {
 .menu-item a {
   padding: 20px;
   text-decoration: none;
-  color: var(--accent-color);
+  color: var(--accent-color1);
   font-size: 18px;
   letter-spacing: 2px;
   transition: all 1s;
@@ -57,7 +66,7 @@ body {
   position: fixed;
   float: left;
   margin: 16px 36px;
-  color: var(--accent-color);
+  color: var(--accent-color2);
   font-size: 24px;
   font-weight: bold;
 }
@@ -99,7 +108,7 @@ h1 {
   margin: 100px 0 0 0;
   font-size: 60px;
   font-weight: 800;
-  color: var(--accent-color);
+  color: var;
   text-transform: uppercase;
 }
 
@@ -112,13 +121,13 @@ h1 {
 
 .socials-icon {
   font-size: 30px;
-  text-decoration: none;
+  text-decoration:cornsilk;
   margin-right: 15px;
-  color: var(--accent-color);
+  color: var;
 }
 
 .text-section {
-  background-color: var(--primary-color);
+  background-color: var;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -129,7 +138,7 @@ h1 {
 .title-section {
   display: flex;
   align-items: center;
-  background-color: var(--accent-color);
+  background-color: var;
   color: var(--primary-color-dark);
   text-transform: uppercase;
   font-weight: 800;
@@ -146,7 +155,7 @@ h1 {
 
 .project-link {
   text-decoration: none;
-  color: var(--accent-color);
+  color: var;
   font-style: italic;
 }
 
@@ -164,7 +173,7 @@ form {
 
 .input-field {
   border: 0;
-  background-color: var(--accent-color);
+  background-color: var;
   font: inherit;
   font-size: 1.125rem;
   padding: .25rem 0;
@@ -181,12 +190,12 @@ form {
   margin-top: 10px;
   padding: 10px;
   font-size: 20px;
-  background-color: var(--accent-color);
+  background-color: var;
   border-radius: 4px;
   border-style: none;
   cursor: pointer;
   transition: all 250ms;
-  color: var(--primary-color-dark);
+  color: var;
 }
 
 .btn-send-message:hover,
@@ -199,7 +208,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  background-color: var(--primary-color-dark);
+  background-color: var;
   color: var(--accent-color);
   padding: 20px;
 }
@@ -211,7 +220,7 @@ footer {
 
 .footer-link {
   text-decoration: none;
-  color: var(--accent-color);
+  color: var;
   font-size: 18px;
 }
 
