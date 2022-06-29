@@ -27,7 +27,7 @@ background-repeat: no-repeat;
 }
 
 body{
-  background-color:background-image:url(/web.jpg);
+  background-color: var(--primary-color)
 }
 
 .container-boton{
