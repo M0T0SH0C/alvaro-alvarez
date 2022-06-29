@@ -15,19 +15,12 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-
-  
+body{ background-image:url(/web.jpg);
   background-size: cover;
 background-repeat: no-repeat;
-
   margin: 0;
   padding: 0;
   font-family: 'Manrope', sans-serif;
-}
-
-body{
-  background-image:url(/web.jpg);
 }
 
 .container-boton{
