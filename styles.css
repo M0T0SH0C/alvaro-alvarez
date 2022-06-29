@@ -15,9 +15,8 @@ html {
   scroll-behavior: smooth;
 }
 
-body{ background-image:url(/web.jpg);
-  background-size: cover;
-background-repeat: no-repeat;
+body{ background-image:url(/web.jpg); 
+   background-size: cover;
   margin: 0;
   padding: 0;
   font-family: 'Manrope', sans-serif;
