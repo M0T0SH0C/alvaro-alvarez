@@ -9,6 +9,7 @@
   --accent-color1: #4d0606;
   --accent-color2: #5b0594;
   --accent-color3: #0bcc2b;
+  --accent-color4:#141414d2;
 }
 
 html {
@@ -16,6 +17,7 @@ html {
 }
 
 body{ background-image:url(/web.jpg); 
+  background-color: transparent;
    background-size: cover;
   margin: 0;
   padding: 0;
