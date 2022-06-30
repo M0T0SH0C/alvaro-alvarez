@@ -15,7 +15,7 @@ html {
   scroll-behavior: smooth;
 }
 
-body{ background-image:url(/web.jpg); 
+body{ background-image:url(web.jpg); 
  
    background-size: cover;
   margin: 0;
